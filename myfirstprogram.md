@@ -101,3 +101,36 @@ input output
 int myAge = 23;
 cout << "I am" << myAge << " years old.";
 ```
+
+# to declare more than one var with the same type
+
+``` 
+int x = 5, y = 6, z = 50;
+cout << x + y + z;
+```
+
+# variable names
+
+```
+int minutesPerHour = 60;
+```
+1. names can contain letters, digits and underscores
+2. names must begin with a letter or underscore _
+3. names are case sensitive: myVar and myvar are different
+4. names cannot contain white space or special chars liek !, #, %, etc..
+5. reserved words like int cannot be used as names
+
+
+# const
+
+const keyword
+
+when you do not want others to override existing variables use const keyword
+
+it means unchangeable and read-only
+
+```
+const int minutesPerHour = 60;
+const float PI = 3.14;
+```
+
