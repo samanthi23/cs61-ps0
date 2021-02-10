@@ -55,3 +55,49 @@ cout << "Hello World!" << end1;
 cout << "I am leraning C++"; 
 
 return 0
+
+# comments in C++
+
+// 
+
+or 
+
+/* */
+
+## variables types
+
+int
+
+double
+
+char
+
+string
+
+bool
+
+### declaring, creating variables
+
+type variable = value;
+
+```
+int myNum = 15;
+cout << myNum;
+```
+
+or 
+
+```
+int myNum;
+myNum = 15;
+cout << myNum;
+```
+
+# cout
+
+input output
+
+```
+int myAge = 23;
+cout << "I am" << myAge << " years old.";
+```
