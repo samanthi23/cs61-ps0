@@ -134,3 +134,94 @@ const int minutesPerHour = 60;
 const float PI = 3.14;
 ```
 
+# cin 
+
+is to read data from the keyboard with ``` >> ```
+
+```
+int x;
+cout << "Type a number: ";
+// get user input
+cin >> x;
+cout << "Your number is: " << x;
+````
+
+## user input
+
+```
+int x, y;
+int sum;
+cout << "Type a number: ";
+cin >> x;
+cout << "Type another number: ";
+cin >> y;
+sun = x + y;
+cout << "Sum is: " << sum
+```
+
+## data types
+
+int 4 bytes
+
+float 4 bytes ( 6 or 7 decimal digits) (35e3)
+
+double 8 bytes ( 15 decimal digits ) (12E4)
+
+boolean 1 byte ( true = 1, false = 0 )
+
+char 1 byte
+
+# strings
+
+must be double quotes ""
+
+``` 
+#include <string>
+string greeting = "Hello";
+cout << greeting;
+```
+
+include header <string>
+
+# operators
+
+%=
+
+# &=
+
+bitwise AND 
+
+# |=
+
+bitwise OR
+
+# ^=
+bitwise XOR
+
+# >>=
+
+bitwise right shift
+
+# <<=
+
+bitwise left shift
+
+## *a 
+
+"object pointed to by a"
+
+## &a
+
+address of a
+
+# logical operators 
+
+&& and
+
+|| or
+
+! not
+
+# strings
+
+
