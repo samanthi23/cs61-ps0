@@ -225,3 +225,42 @@ address of a
 # strings
 
 
+# while (true)
+
+if ( end of file )
+
+!= EOF
+
+long n
+
+n = 0
+
+++n
+
+break;
+
+count bytes using fgetc
+
+then fprintf print bytes
+
+%l 
+
+# fgetc 
+
+get a byte from a stream
+
+```
+#include <stdio.h>
+
+int fgetc(FILE *stream);
+```
+
+obtain the next byte as an unsigned char converted to an int
+
+fgetc() shall return EOF.
+
+
+
+%lu print unsigned long
+%llu long long unsigned integer
+
